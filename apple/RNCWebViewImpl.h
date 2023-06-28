@@ -133,6 +133,7 @@ shouldStartLoadForRequest:(NSMutableDictionary<NSString *, id> *)request
 - (void)goBack;
 - (void)reload;
 - (void)stopLoading;
+- (void)getWebView;
 - (void)requestFocus;
 #ifdef RCT_NEW_ARCH_ENABLED
 - (void)destroyWebView;

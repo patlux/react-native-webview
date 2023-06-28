@@ -1511,6 +1511,11 @@ didFinishNavigation:(WKNavigation *)navigation
   [_webView stopLoading];
 }
 
+- (void)getWebView
+{
+  return _webView;
+}
+
 - (void)requestFocus
 {
 #if !TARGET_OS_OSX
