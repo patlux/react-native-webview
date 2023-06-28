@@ -1511,7 +1511,7 @@ didFinishNavigation:(WKNavigation *)navigation
   [_webView stopLoading];
 }
 
-- (void)getWebView
+- (WKWebView *)getWebView
 {
   return _webView;
 }
